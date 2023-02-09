@@ -13,6 +13,9 @@
   <body>
     <!-- Add your HTML content here -->
     <header>
+      <div>
+        <h2>Кодируйте со страстью, программируйте с целью</h2>
+      </div>
       <div id="timer">
         <p>Time remaining until 25th: <span id="countdown"></span></p>
       </div>
@@ -34,32 +37,25 @@
     </header>
     <nav>
   <ul>
-    <li><a href="#section1">Section 1</a></li>
+    <li><a href="#section1">Сайты</a></li>
     <li><a href="#section2">Section 2</a></li>
+    <li><a href="#section3">Section 3</a></li>
+   
     <!-- Add more navigation links as needed -->
   </ul>
 </nav>
 
 <main>
   <section id="section1" hidden>
-    <h2>Section 1</h2>
+    <h2>Сайты</h2>
     <div>
-      Приведенный выше код написан на JavaScript и содержит единственную функцию "showSection" и цикл, который добавляет прослушиватели событий к ссылкам навигации.
-
-    Функция показывает раздел:
-
-    Он принимает объект события в качестве аргумента.
-    Первая строка функции вызывает метод preventDefault для объекта event, чтобы предотвратить поведение ссылки по умолчанию при нажатии.
-    Следующая строка использует целевое свойство объекта события, чтобы получить элемент привязки, по которому был произведен щелчок.
-    Затем метод getAttribute вызывается для элемента привязки, чтобы получить его атрибут "href".
-    Значение атрибута "href" используется для выбора элемента раздела с тем же идентификатором с помощью метода querySelector.
-    Затем стиль отображения выбранного раздела устанавливается на "блокировать".
-
-    Петля:
-
-    Метод querySelectorAll используется для выбора всех навигационных ссылок в элементе "nav".
-    Цикл повторяет все ссылки и добавляет прослушиватель событий к каждой из них.
-    Прослушиватель событий прослушивает событие "щелчок" и вызывает функцию "showSection" при нажатии на ссылку
+      <ol>
+        <li><a href="https://www.google.com">Google</a></li>
+        <li><a href="https://www.facebook.com">Facebook</a></li>
+        <li><a href="https://www.amazon.com">Amazon</a></li>
+        <li><a href="https://www.apple.com">Apple</a></li>
+      </ol>
+       
     </div>
   </section>
   <section id="section2" hidden>
@@ -68,6 +64,18 @@
        Add content for Section 2 
     </div>
   </section>
+  <section id="section3" hidden>
+    <h2>Section 3</h2>
+    <div>
+       Add content for Section 3 
+    </div>
+  </section>
+
+
+  
+  
+
+  
   <!-- Add more sections as needed -->
 </main>
 
